@@ -1,0 +1,22 @@
+{
+  "name": "Job-Board",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+ 
+  },
+  "keywords": [],
+  "author": "parag vishwakarma",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cli-color": "^2.0.3",
+    "express": "^4.18.2",
+    "html-to-text": "^9.0.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.1",
+    "showdown": "^2.1.0"
+  }
+}
