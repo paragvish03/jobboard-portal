@@ -10,15 +10,15 @@ In this job board application, there are two usertype
 2) Recruiter   #onewho create a job so seekers can apply on it
 
 Inputformat
-name / email /usertype is String
+name / email /usertype(type 'RECRUITER' else bydefault its "CUSTOMER") are String Datatype
 experiencelevel is number datatype denotes year of experience
 
 
 Key features of this app:
 * User autherisation and authentication has done correcctly
-* JWT token is used for users
+* JWT token is used for users authentication
 * password stored in encrypted form instead of raw text for security purpose and as best practice
-* Middleware is usedas authorisation to keep both actor away form their functionality
+* Middleware is used as authorisation to keep both actor away form their functionality
 * No duplicate data will create for same email
 * Email should be valid formate only otherwise message will generate by validator
 * pagination has done in required fileds.
